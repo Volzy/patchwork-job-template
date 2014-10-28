@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'BentonSans Bold';
+  src: url('benton_bold.eot'); /* IE9 Compat Modes */
+  src: url('benton_bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('benton_bold.woff') format('woff'), /* Modern Browsers */
+       url('benton_bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('benton_bold.svg#ed8435d366a4ac4bee8ecd80fc76b4b5') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'BentonSans Book';
+  src: url('benton_book.eot'); /* IE9 Compat Modes */
+  src: url('benton_book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('benton_book.woff') format('woff'), /* Modern Browsers */
+       url('benton_book.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('benton_book.svg#ace0ed135dbc9c8610ca3f0bf5ce3b98') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'BentonSans Light';
+  src: url('benton_light.eot'); /* IE9 Compat Modes */
+  src: url('benton_light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('benton_light.woff') format('woff'), /* Modern Browsers */
+       url('benton_light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('benton_light.svg#f78597f6497138650c310eebac22df9c') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'BentonSans Medium';
+  src: url('benton_medium.eot'); /* IE9 Compat Modes */
+  src: url('benton_medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('benton_medium.woff') format('woff'), /* Modern Browsers */
+       url('benton_medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('benton_medium.svg#a8060284b02b2442ada7a339eccbdbe3') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'BentonSans Regular';
+  src: url('benton_regular.eot'); /* IE9 Compat Modes */
+  src: url('benton_regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('benton_regular.woff') format('woff'), /* Modern Browsers */
+       url('benton_regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('benton_regular.svg#f50175ba80b800aed21afcc63f3304ef') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
