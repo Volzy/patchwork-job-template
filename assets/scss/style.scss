@@ -128,6 +128,7 @@
  */
 body {
 	font: 16px/23px 'BentonSans Regular', 'helvetica neue', helvetica, arial, sans-serif;
+	font-smoothing: antialiased;
 }
 
 b, strong {
@@ -149,12 +150,12 @@ b, strong {
 .button {
 	background: #bd0027;
 	border-bottom: 4px solid #7f001a;
-	border-radius: 5px;
+	border-radius: 7px;
 	box-sizing: border-box;
 	color: #fff;
 	display: block;
-	height: 40px;
-	line-height: 40px;
+	height: 50px;
+	line-height: 50px;
 	margin: 30px auto;
 	max-width: 300px;
 	min-width: 60px;
@@ -251,23 +252,25 @@ b, strong {
 }
 
 .about {
+	background: #fcfcfc url('../images/patchwork-logo-bw.png') no-repeat 50% 50%;
 	min-height: 100%;
 }
 
 .contact {
 	background: #f7f7f7;
-	background: radial-gradient(ellipse at center,  #f7f7f7 0%,#e5e5e5 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%,rgba(244,244,244,1) 42%,rgba(196,196,196,1) 100%);
 	min-height: 100%;
 
 	.text,
 	textarea {
 		background: #666;
-		border: 4px solid #666;
+		border: 0;
+		border-bottom: 4px solid transparent;
 		color: #fff;
 		display: block;
 		margin-bottom: 10px;
 		outline: 0;
-		padding: 10px 0;
+		padding: 14px 0 10px;
 		text-indent: 10px;
 		width: 100%;
 	}
@@ -279,7 +282,7 @@ b, strong {
 
 	.text:focus,
 	textarea:focus {
-		border-color: #999;
+		border-color: #444;
 	}
 
 	input.button {
@@ -288,6 +291,24 @@ b, strong {
 		border-top: 0;
 		outline: 0;
 		min-width: 240px;
+	}
+
+	.error {
+		border-bottom: 4px solid #bd0027;
+	}
+
+	.error-msg {
+		color: #bd0027;
+		font-weight: bold;
+		margin-top: 15px;
+		text-align: center;
+	}
+
+	.success-msg {
+		color: #00AA04;
+		font-weight: bold;
+		margin-top: 15px;
+		text-align: center;
 	}
 
 	.counter {
@@ -299,8 +320,15 @@ b, strong {
 		color: #bd0027;
 	}
 
+	.share-box {
+		margin: auto;
+		text-align: center;
+		width: 60%;
+	}
+
 	.social-share {
 		list-style: none;
+		padding: 0;
 		text-align: center;
 
 		li {
